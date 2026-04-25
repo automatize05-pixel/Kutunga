@@ -221,10 +221,8 @@
         submitBtn.disabled = true;
 
         // EmailJS implementation
-        // NOTE: The service and template IDs should be configured in EmailJS dashboard
-        // and passed here. I'll use placeholders that the user might need to update.
-        const serviceID = 'default_service';
-        const templateID = 'template_kutunga'; // Suggested name
+        const serviceID = 'service_mety5ds';
+        const templateID = 'template_axaj0rl';
 
         emailjs.sendForm(serviceID, templateID, this)
           .then(() => {
